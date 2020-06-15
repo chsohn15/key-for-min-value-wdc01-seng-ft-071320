@@ -17,10 +17,8 @@ def key_for_min_value(name_hash)
       if name_hash[a][b] < smallest_value
         smallest_value = name_hash[a][b]
         smallest_key = a
-
       end
       binding.pry
   end
-  binding.pry
   smallest_key
 end
