@@ -16,9 +16,9 @@ def key_for_min_value(name_hash)
   name_hash.each do |a, b|
       if name_hash[a][b] < smallest_value
         smallest_value = name_hash[a][b]
+        binding.pry
         smallest_key = a
       end
-      binding.pry
   end
   smallest_key
 end
